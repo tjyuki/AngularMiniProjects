@@ -1,5 +1,6 @@
 angular.module("userProfiles")
-  .service("mainService" function(){
+  .service("softserve", function(){
+
     var data = [
       {
           "id": 1,
@@ -20,5 +21,11 @@ angular.module("userProfiles")
           "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"
       }
     ]
+
+    this.getUsers = function() {
+      return data;
+    };
+
+
 
   });

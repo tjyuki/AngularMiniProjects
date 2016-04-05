@@ -1,4 +1,7 @@
 angular.module("userProfiles")
-  .controller("MainController", function($scope){
+  .controller("theManager", function($scope, softserve){
+
+      $scope.users = softserve.getUsers();
+
 
   });
