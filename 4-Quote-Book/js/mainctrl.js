@@ -1,5 +1,6 @@
 angular.module("quotebook")
   .controller("ctrlbook", function($scope, svenbook){
+<<<<<<< HEAD
     $scope.getQuotes = function() {
       $scope.quotes = service.getData();
       console.log($scope.quotes);
@@ -18,4 +19,7 @@ angular.module("quotebook")
       $scope.newQuote = {};
     }
 
+=======
+    $scope.quotes = svenbook.showQuotes();
+>>>>>>> 5b41121db291a3d56bd33a95573fa5e5043b86e6
   });

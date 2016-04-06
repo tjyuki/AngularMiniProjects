@@ -10,6 +10,7 @@ var quotes = [
   { text: 'What even is a jQuery?', author: 'Tyler S. McGinnis'}
 ];
 
+<<<<<<< HEAD
 this.getData = function(){
   return quotes;
 };
@@ -33,4 +34,10 @@ this.removeData = function(text) {
   }
 }
 
+=======
+this.showQuotes = function(){
+  return quotes;
+};
+
+>>>>>>> 5b41121db291a3d56bd33a95573fa5e5043b86e6
 });
